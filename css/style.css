@@ -66,3 +66,53 @@ a{
     border: 0.5em solid #ada976;
     border-radius: 2em;
 }
+
+.menu__destacado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__opciones {
+    display: grid;
+    grid-template-areas: 
+        "imagen"
+        "cuerpo";
+    grid-template-columns: 100%;
+    grid-template-rows: 300px auto;
+    margin-right: 1.5em;
+    width: calc(25% - 1.5em);
+}
+
+.menu__opciones:last-child {
+    margin-right: 0;
+}
+
+.menu__opciones__imagen {
+    grid-area: imagen;
+}
+
+.menu__opciones__cuerpo {
+    text-align: left;
+    grid-area: cuerpo;
+    display: grid;
+    grid-template-areas: 
+        "titulo"
+        "descripcion";
+    grid-template-columns: 100%;
+    grid-template-rows: 4em auto;
+}
+
+.opciones__titulo {
+    color: #0a0700;
+    font-size: 1.5em;
+}
+
+.opciones__descripcion {
+    color: #7c7772;
+    font-size: 1.2em;
+}
+
+.menu__pdf,a {
+    text-align: left;
+    color: #0a0700;
+}
