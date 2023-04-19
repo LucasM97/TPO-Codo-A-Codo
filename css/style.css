@@ -29,7 +29,7 @@ a{
 }
 
 .titulo__principal {
-    color: rgba(red, green, blue, 0);
+    color: rgba(1, 1, 1, 0);
     width: 24em;
     height: 16em;
     background-image: url('/img/logo-blanco.png');
