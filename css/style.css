@@ -243,3 +243,54 @@ a {
 .contacto__footer a:hover {
     color: #ada976;
 }
+
+/*--- Estilo encavezado faqs-contacto-legal ---*/
+
+.encavezado {
+    width: 100%;
+    height: 10%;
+    background:#0a0700;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__encavezado {
+    color: rgba(1, 1, 1, 0);
+    width: 500px;
+    height: 100px;
+    background-image: url('/img/logo-blanco-lineal.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+/*--- Estilo FAQs ---*/
+
+.cuestionario {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuestionario__item {
+    text-align: left;
+    border-bottom: 2px solid #0a0700;
+}
+
+.pregunta {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.respuesta {
+    font-size: 2rem;
+    line-height: 1.7rem;
+    color: #7c7772;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    list-style-type: decimal;
+}
+
+.olist {
+    padding-left: 3.5em;
+}
+
+
