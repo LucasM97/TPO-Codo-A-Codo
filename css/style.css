@@ -293,4 +293,37 @@ a {
     padding-left: 3.5em;
 }
 
+/*--- Estilo contacto ---*/
+
+label {
+    display: block;
+    font-size: 1.5em;
+}
+
+.input__form {
+    margin-bottom: 1.5em;
+    width: 400px;
+    height: 30px;
+}
+
+.checkbox {
+    margin-top: 1em;
+}
+
+.enviar {
+    width: 10%;
+    height: 35px;
+    margin-top: 1em;
+    color: #0a0700;
+    background: #f8f8f8;
+    border: 0.2em solid;
+    border-color: #0a0700;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #ada976;
+    transform: scale(1.1);
+}
 
